@@ -1,0 +1,19 @@
+version: '2.1'
+services:
+  alice:
+    image: bitcoin:alice
+#    volumes:
+#      - ./bitcoin.conf:/.bitcoin/bitcoin.conf
+  bob:
+    image: bitcoin:bob
+#    volumes:
+#      - ./bitcoin.conf:/.bitcoin/bitcoin.conf
+  carol:
+    image: bitcoin:carol
+#    volumes:
+#      - ./bitcoin.conf:/.bitcoin/bitcoin.conf
+  dan:
+    image: bitcoin:dan
+#    volumes:
+#      - ./bitcoin.conf:/.bitcoin/bitcoin.conf
+
